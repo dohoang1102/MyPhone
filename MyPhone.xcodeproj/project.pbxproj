@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1DB95A14C95EB8004290E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1DB95914C95EB8004290E5 /* UIKit.framework */; };
+		AF1DB95C14C95EB8004290E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1DB95B14C95EB8004290E5 /* Foundation.framework */; };
+		AF1DB95E14C95EB8004290E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1DB95D14C95EB8004290E5 /* CoreGraphics.framework */; };
+		AF1DB96414C95EB8004290E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF1DB96214C95EB8004290E5 /* InfoPlist.strings */; };
+		AF1DB96614C95EB8004290E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1DB96514C95EB8004290E5 /* main.m */; };
+		AF1DB96A14C95EB8004290E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1DB96914C95EB8004290E5 /* AppDelegate.m */; };
+		AF1DB96D14C95EB8004290E5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1DB96C14C95EB8004290E5 /* MainViewController.m */; };
+		AF1DB97014C95EB8004290E5 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1DB96F14C95EB8004290E5 /* FlipsideViewController.m */; };
+		AF1DB97314C95EB8004290E5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1DB97114C95EB8004290E5 /* MainViewController.xib */; };
+		AF1DB97614C95EB8004290E5 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1DB97414C95EB8004290E5 /* FlipsideViewController.xib */; };
+		AF5905B314C9956800C2695B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5905B214C9956800C2695B /* Default@2x.png */; };
+		AF5905B614C9956A00C2695B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5905B514C9956A00C2695B /* Default.png */; };
+		AF5905B814C996B600C2695B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5905B714C996B600C2695B /* icon.png */; };
+		AF5905BA14C996B800C2695B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5905B914C996B800C2695B /* icon@2x.png */; };
+		AF5905DE14C9A63200C2695B /* UIDevice-IOKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5905DD14C9A63200C2695B /* UIDevice-IOKit.m */; };
+		AF5905E014C9A66B00C2695B /* libIOKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5905DF14C9A66B00C2695B /* libIOKit.dylib */; };
+		AF5905E514C9A91500C2695B /* device_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = AF5905E114C9A91500C2695B /* device_utils.c */; };
+		AF5905E614C9A91500C2695B /* UIDeviceExt.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5905E414C9A91500C2695B /* UIDeviceExt.m */; };
+		AF5905E814C9A91F00C2695B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5905E714C9A91F00C2695B /* AudioToolbox.framework */; };
+		AF5905EC14C9AAF400C2695B /* Icon009.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5905EB14C9AAF400C2695B /* Icon009.png */; };
+		AF5905EE14C9ABF800C2695B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5905ED14C9ABF800C2695B /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF1DB95514C95EB8004290E5 /* MyPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1DB95914C95EB8004290E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF1DB95B14C95EB8004290E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF1DB95D14C95EB8004290E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF1DB96114C95EB8004290E5 /* MyPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPhone-Info.plist"; sourceTree = "<group>"; };
+		AF1DB96314C95EB8004290E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF1DB96514C95EB8004290E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF1DB96714C95EB8004290E5 /* MyPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPhone-Prefix.pch"; sourceTree = "<group>"; };
+		AF1DB96814C95EB8004290E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF1DB96914C95EB8004290E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF1DB96B14C95EB8004290E5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AF1DB96C14C95EB8004290E5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AF1DB96E14C95EB8004290E5 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		AF1DB96F14C95EB8004290E5 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		AF1DB97214C95EB8004290E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		AF1DB97514C95EB8004290E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		AF5905B214C9956800C2695B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF5905B514C9956A00C2695B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF5905B714C996B600C2695B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AF5905B914C996B800C2695B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		AF5905DC14C9A63200C2695B /* UIDevice-IOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-IOKit.h"; sourceTree = "<group>"; };
+		AF5905DD14C9A63200C2695B /* UIDevice-IOKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-IOKit.m"; sourceTree = "<group>"; };
+		AF5905DF14C9A66B00C2695B /* libIOKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIOKit.dylib; path = usr/lib/libIOKit.dylib; sourceTree = SDKROOT; };
+		AF5905E114C9A91500C2695B /* device_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = device_utils.c; sourceTree = "<group>"; };
+		AF5905E214C9A91500C2695B /* device_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = device_utils.h; sourceTree = "<group>"; };
+		AF5905E314C9A91500C2695B /* UIDeviceExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceExt.h; sourceTree = "<group>"; };
+		AF5905E414C9A91500C2695B /* UIDeviceExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceExt.m; sourceTree = "<group>"; };
+		AF5905E714C9A91F00C2695B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AF5905EB14C9AAF400C2695B /* Icon009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon009.png; sourceTree = "<group>"; };
+		AF5905ED14C9ABF800C2695B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1DB95214C95EB8004290E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5905EE14C9ABF800C2695B /* MessageUI.framework in Frameworks */,
+				AF5905E814C9A91F00C2695B /* AudioToolbox.framework in Frameworks */,
+				AF5905E014C9A66B00C2695B /* libIOKit.dylib in Frameworks */,
+				AF1DB95A14C95EB8004290E5 /* UIKit.framework in Frameworks */,
+				AF1DB95C14C95EB8004290E5 /* Foundation.framework in Frameworks */,
+				AF1DB95E14C95EB8004290E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1DB94A14C95EB8004290E5 = {
+			isa = PBXGroup;
+			children = (
+				AF5905ED14C9ABF800C2695B /* MessageUI.framework */,
+				AF5905B914C996B800C2695B /* icon@2x.png */,
+				AF5905B714C996B600C2695B /* icon.png */,
+				AF5905B514C9956A00C2695B /* Default.png */,
+				AF5905B214C9956800C2695B /* Default@2x.png */,
+				AF5905EB14C9AAF400C2695B /* Icon009.png */,
+				AF1DB95F14C95EB8004290E5 /* MyPhone */,
+				AF1DB95814C95EB8004290E5 /* Frameworks */,
+				AF1DB95614C95EB8004290E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1DB95614C95EB8004290E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1DB95514C95EB8004290E5 /* MyPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1DB95814C95EB8004290E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5905DF14C9A66B00C2695B /* libIOKit.dylib */,
+				AF5905E714C9A91F00C2695B /* AudioToolbox.framework */,
+				AF1DB95914C95EB8004290E5 /* UIKit.framework */,
+				AF1DB95B14C95EB8004290E5 /* Foundation.framework */,
+				AF1DB95D14C95EB8004290E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1DB95F14C95EB8004290E5 /* MyPhone */ = {
+			isa = PBXGroup;
+			children = (
+				AF1DB96814C95EB8004290E5 /* AppDelegate.h */,
+				AF1DB96914C95EB8004290E5 /* AppDelegate.m */,
+				AF1DB96B14C95EB8004290E5 /* MainViewController.h */,
+				AF1DB96C14C95EB8004290E5 /* MainViewController.m */,
+				AF1DB96E14C95EB8004290E5 /* FlipsideViewController.h */,
+				AF1DB96F14C95EB8004290E5 /* FlipsideViewController.m */,
+				AF1DB97114C95EB8004290E5 /* MainViewController.xib */,
+				AF1DB97414C95EB8004290E5 /* FlipsideViewController.xib */,
+				AF5905DC14C9A63200C2695B /* UIDevice-IOKit.h */,
+				AF5905DD14C9A63200C2695B /* UIDevice-IOKit.m */,
+				AF5905E114C9A91500C2695B /* device_utils.c */,
+				AF5905E214C9A91500C2695B /* device_utils.h */,
+				AF5905E314C9A91500C2695B /* UIDeviceExt.h */,
+				AF5905E414C9A91500C2695B /* UIDeviceExt.m */,
+				AF1DB96014C95EB8004290E5 /* Supporting Files */,
+			);
+			path = MyPhone;
+			sourceTree = "<group>";
+		};
+		AF1DB96014C95EB8004290E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF1DB96114C95EB8004290E5 /* MyPhone-Info.plist */,
+				AF1DB96214C95EB8004290E5 /* InfoPlist.strings */,
+				AF1DB96514C95EB8004290E5 /* main.m */,
+				AF1DB96714C95EB8004290E5 /* MyPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1DB95414C95EB8004290E5 /* MyPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1DB97914C95EB8004290E5 /* Build configuration list for PBXNativeTarget "MyPhone" */;
+			buildPhases = (
+				AF1DB95114C95EB8004290E5 /* Sources */,
+				AF1DB95214C95EB8004290E5 /* Frameworks */,
+				AF1DB95314C95EB8004290E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPhone;
+			productName = MyPhone;
+			productReference = AF1DB95514C95EB8004290E5 /* MyPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1DB94C14C95EB8004290E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Software Developer";
+			};
+			buildConfigurationList = AF1DB94F14C95EB8004290E5 /* Build configuration list for PBXProject "MyPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF1DB94A14C95EB8004290E5;
+			productRefGroup = AF1DB95614C95EB8004290E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1DB95414C95EB8004290E5 /* MyPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1DB95314C95EB8004290E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1DB96414C95EB8004290E5 /* InfoPlist.strings in Resources */,
+				AF1DB97314C95EB8004290E5 /* MainViewController.xib in Resources */,
+				AF1DB97614C95EB8004290E5 /* FlipsideViewController.xib in Resources */,
+				AF5905B314C9956800C2695B /* Default@2x.png in Resources */,
+				AF5905B614C9956A00C2695B /* Default.png in Resources */,
+				AF5905B814C996B600C2695B /* icon.png in Resources */,
+				AF5905BA14C996B800C2695B /* icon@2x.png in Resources */,
+				AF5905EC14C9AAF400C2695B /* Icon009.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1DB95114C95EB8004290E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1DB96614C95EB8004290E5 /* main.m in Sources */,
+				AF1DB96A14C95EB8004290E5 /* AppDelegate.m in Sources */,
+				AF1DB96D14C95EB8004290E5 /* MainViewController.m in Sources */,
+				AF1DB97014C95EB8004290E5 /* FlipsideViewController.m in Sources */,
+				AF5905DE14C9A63200C2695B /* UIDevice-IOKit.m in Sources */,
+				AF5905E514C9A91500C2695B /* device_utils.c in Sources */,
+				AF5905E614C9A91500C2695B /* UIDeviceExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF1DB96214C95EB8004290E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1DB96314C95EB8004290E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF1DB97114C95EB8004290E5 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1DB97214C95EB8004290E5 /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		AF1DB97414C95EB8004290E5 /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1DB97514C95EB8004290E5 /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1DB97714C95EB8004290E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF1DB97814C95EB8004290E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1DB97A14C95EB8004290E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhone/MyPhone-Prefix.pch";
+				INFOPLIST_FILE = "MyPhone/MyPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF1DB97B14C95EB8004290E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhone/MyPhone-Prefix.pch";
+				INFOPLIST_FILE = "MyPhone/MyPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1DB94F14C95EB8004290E5 /* Build configuration list for PBXProject "MyPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1DB97714C95EB8004290E5 /* Debug */,
+				AF1DB97814C95EB8004290E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1DB97914C95EB8004290E5 /* Build configuration list for PBXNativeTarget "MyPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1DB97A14C95EB8004290E5 /* Debug */,
+				AF1DB97B14C95EB8004290E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1DB94C14C95EB8004290E5 /* Project object */;
+}
